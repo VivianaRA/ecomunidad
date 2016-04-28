@@ -1,26 +1,2 @@
 /* Inserta tu codigo aqui */
-*{outline:1px solid rgba(255,0,0,0.3);}
-body{width: 98%; margin: auto; text-align: center;}
 
-.servicios>h3{margin: 4% 0 1%;}
-.servicios>p{margin: 0 15%;}
-.tipo-servicio{margin: 10%;}
-.tipo-servicio p:first-of-type{margin: 3% 3% 5%;}
-.tipo-servicio img{max-width: 100px;}
-
-.proyectos{background: #4F9239; color: #fff;}
-.proyectos img{max-width: 75%;}
-.proyectos p{margin: 2% 6% 0;}
-.proyectos p:first-of-type{margin-top: 6%;}
-.proyecto1 h3{margin: 6% 0 0 8%; text-align: left;}
-.proyecto2 img{margin-bottom: 10%;}
-
-
-
-.texto10{font-size: 10px;}
-.texto11{font-size: 11px;}
-.texto13{font-size: 13px;}
-.texto14{font-size: 14px;}
-
-.tipo-servicio{padding: 8px 4px;}
-.row {margin: auto;}
