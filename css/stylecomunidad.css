@@ -43,7 +43,7 @@ a{
 	font-size: 14px;	
 }
 .semilla{
-	background:url(semilla.jpg);
+	background:url("../img/semilla.jpg");
 	height: 350px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -51,7 +51,7 @@ a{
 	background-position: 0% 40%;
 }
 .semilla:hover{
-	background:url(semillafondo.jpg);
+	background:url("../img/semillafondo.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -75,7 +75,7 @@ a{
 	width: 100px;
 }
 .hombre{
-	background:url(metodo.jpg);
+	background:url("../img/metodo.jpg");
 	height:300px; 
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -84,15 +84,12 @@ a{
 .texto {
 	font-size:12px;
 	height:300px;
-	background:url(fondo.jpg);
+	background:url("../img/fondo.jpg");
 	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: top;
 	text-align:center;
 	padding-top: 70px;
-}
-.centrado {
-	
 }
 
 .libro {
@@ -145,7 +142,7 @@ h3 {
 .blog {
 	font-size:12px;
 	height:450px;
-	background:url(fondo2.jpg);
+	background:url("../img/fondo2.jpg");
 	background-size: auto;
 	background-repeat: no-repeat;
 	background-position: top;
@@ -168,3 +165,4 @@ h3 {
 	background:grey;
 	text-align:center;
 	padding-top: 10px;
+}
