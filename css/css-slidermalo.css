@@ -28,19 +28,19 @@
 }
 
 #slider article img {
-	height: 250px;
-	width:250px;
-	display:inline-block;
+	
+	max-width:100% !important;
 }
 
 #slides .inner {
-	width: 500%;
-	line-height: 0;
+	width: 100%;
+	line-height: 20%;
 }
 
 #slides article {
+	margin:10px
 	width: 20%;
-	float: left;
+	float: 10%;
 }
 
 /* Slider Styling */
@@ -49,7 +49,7 @@
 
 #controls {
 	margin: -25% 0 0 0;
-	width: 100%;
+	width: 70%;
 	height: 50px;
 }
 
@@ -71,7 +71,7 @@
 	border-radius: 5px;
 	display: inline-block;
 	width: 10px;
-	height: 10px;
+	height:10px;
 	background: #bbb;
 }
 
@@ -85,7 +85,7 @@
 }
 
 #slide1:checked ~ #controls label:nth-child(2), 
-#slide2:checked ~ #controls label:nth-child(1) {
+#slide2:checked ~ #controls label:nth-child(1){
 	background: url('http://img140.imageshack.us/img140/7481/nextfy.png') no-repeat;
 	float: right;
 	margin: 0 -70px 0 0;
@@ -94,7 +94,8 @@
 
 
 #slide1:checked ~ #controls label:nth-child(2),
-#slide2:checked ~ #controls label:nth-child(1){
+#slide2:checked ~ #controls label:nth-child(1),
+ {
 	background: url('http://img7.imageshack.us/img7/152/prevrt.png') no-repeat;
 	float: left;
 	margin: 0 0 0 -70px;
@@ -131,10 +132,10 @@
 /* Slider Styling */
 
 #slides {
-	margin: 45px 0 0;
-	-webkit-border-radius: 5px;
+	margin: 35px 0 0;
+	-webkit-border-radius: 0px;
 	-moz-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 0px;
 	box-shadow: 1px 1px 4px #666;
 	padding: 1%;
 	background: #fff;
@@ -195,7 +196,7 @@
 		transform: scale(0.8);
 	}
 #slide1:checked ~ #slides article:nth-child(1) .info,
-#slide2:checked ~ #slides article:nth-child(2) .info{
+#slide2:checked ~ #slides article:nth-child(2) .info {
 	opacity: 1;
 	-webkit-transition: all 1s ease-out 0.6s;
 	-moz-transition: all 1s ease-out 0.6s;

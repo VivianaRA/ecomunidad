@@ -1,0 +1,36 @@
+.img-fondo{
+	background: url(../img/fondo2.jpg);
+	height: 335px;
+}
+.slider{
+	width: 90%;
+	height: 335px;
+	margin: auto;
+	overflow: hidden;
+}
+.slider .cont-slider-ineter{
+	display: table;
+	position: relative;
+	margin-top: 50px;
+	width: 200%;
+
+}
+.slider .cont-slider{
+	float: left;
+ 	position: relative;
+ 	transition: width 1s linear 2s; 
+} 
+.slider .cont-slider :hover{
+	margin-left:-500px;
+}
+
+.cont-img{
+	display: inline-block;
+	width: 280px;
+    margin: 0px 31px 0px 50px;
+	font-size: 10px;
+	margin-bottom: 60px;
+}
+.cont-img img{
+	width: 100%;
+}
