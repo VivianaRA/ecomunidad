@@ -108,11 +108,11 @@ a{
 
 .proyectos{background: rgba(40,120,0,0.7); color: #fff;}
 .proyectos>h3{padding: 4em 0 1.4em; text-align: center;}
-.proyectos img{max-width: 75%; border-radius: 150px;}
+.proyectos img{width: 259px; border-radius: 450px;padding: .5em;}
 .proyectos p{margin: 2% 6% 0;}
 .proyectos p:first-of-type{margin-top: 6%;}
 .proyecto1 h3{margin: 6% 0 0 8%; text-align: left;}
-.proyecto2 img{margin-bottom: 10%;}
+.proyecto2 img{margin-bottom: 5em;}
 
 
 
@@ -124,6 +124,8 @@ a{
 .tipo-servicio{padding: 8px 4px;}
 .row {margin: auto;}
 
+.equipo{padding-bottom: 3em;}
+.equipo>h3{padding: 4em 0 1.4em; text-align: center;}
 
 h3 {
 	text-align: left;
@@ -190,4 +192,8 @@ h3 {
 .texto14{font-size: 14px;}
 
 .tipo-servicio{padding: 8px 4px;}
-.row {margin: auto;}
+
+.pie{padding-bottom:1em; }
+.pie div:first-of-type{text-align: left; font-size: 10px; padding: 2em;}
+.pie div:last-of-type{text-align: right; font-size: 10px; padding: 2em;}
+.pie span{font-weight: bold; color: #2BA60F;}
