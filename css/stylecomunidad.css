@@ -107,8 +107,9 @@ a{
 .proyectos img{max-width: 75%;}
 .proyectos p{margin: 2% 6% 0;}
 .proyectos p:first-of-type{margin-top: 6%;}
-.proyecto1 h3{margin: 6% 0 0 8%; text-align: left;}
-.proyecto2 img{margin-bottom: 10%;}
+.proyectos h3{margin: 2% 6% 0; text-align: left; padding-top: 20px;}
+.proyecto1 div{padding-top: 5%;}
+.proyecto2 div{margin-bottom: 10%;}
 
 
 
@@ -120,20 +121,17 @@ a{
 .tipo-servicio{padding: 8px 4px;}
 .row {margin: auto;}
 
-
-h3 {
-	text-align: left;
-	color:;
-}
 .equipo1 {
 	font-size:12px;
 	text-align:center;
 	padding-left :180px;
+	margin:20px 0px;
 }
 .equipo2 {
 	font-size:12px;
 	text-align:center;
 	padding-right: 180px;
+	margin:20px 0px;
 }
 .redondo{
 	border-radius: 150px;
